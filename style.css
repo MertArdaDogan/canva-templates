@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#hero{
+    background-image: url(./img/1.png);
+}
+#about{
+    background-image: url(./design/2.png);
+}
+#services{
+    background-image: url(./design/3.png);
+}
+#client{
+    background-image: url(./design/4.png);
+}
+#text{
+    background-image: url(./design/5.png);
+}
+#contact{
+    background-image: url(./design/6.png);
+}
+.container{
+    height: 100vh;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5% 7.7%;
+}
+.logo i{
+    cursor: pointer;
+    color: #fff;
+    font-size: 100px;
+}
+#hero .text h1{
+    color: #fff;
+    font-size: 120px;
+    font-weight: 500;
+    width: 550px;
+    line-height: 110px;
+    letter-spacing: -1px;
+    position: relative;
+    bottom: 60px;
+}
+#hero .text h5{
+    color: #9B9B9B;
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
